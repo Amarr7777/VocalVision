@@ -34,14 +34,14 @@ VocalVision is a web application that empowers individuals with visual impairmen
     ```bash
     cd VocalVision/server
     source venv/bin/activate
-    pip3 install -r requirements.txt
+    pip3 install flask flask_cors numpy gtts SpeechRecognition opencv-python
     python3 server.py
 
 4. Run the server (for windows)
     ```bash
-    cd VocalVision/server
-    source venv/Scripts/activate
-    pip install -r requirements.txt
+    cd VocalVision\server
+    venv\Scripts\activate
+    pip install flask flask_cors numpy gtts SpeechRecognition opencv-python
     python server.py
    
 ### **Note**:
