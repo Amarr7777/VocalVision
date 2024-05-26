@@ -17,6 +17,11 @@ VocalVision is a web application that empowers individuals with visual impairmen
 - **Text-to-Speech (TTS)**: gTTS (Google Text-to-Speech)
 - **Communication**: Axios for API requests
 
+## Screenshots
+![App Screenshot 1](./screenshots/home.png)
+![App Screenshot 2](./screenshots/team.png)
+![App Screenshot 3](./screenshots/output.png)
+
 ## Getting Started
 
 1. Clone the repository:
@@ -34,14 +39,14 @@ VocalVision is a web application that empowers individuals with visual impairmen
     ```bash
     cd VocalVision/server
     source venv/bin/activate
-    pip3 install flask flask_cors numpy gtts SpeechRecognition opencv-python
+    pip3 install -r requirements.txt
     python3 server.py
 
 4. Run the server (for windows)
     ```bash
-    cd VocalVision\server
-    venv\Scripts\activate
-    pip install flask flask_cors numpy gtts SpeechRecognition opencv-python
+    cd VocalVision/server
+    source venv/Scripts/activate
+    pip install -r requirements.txt
     python server.py
    
 ### **Note**:
